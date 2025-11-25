@@ -7,8 +7,8 @@ This repository contains instructions on ...
 
 
 ## Acknowledgement
-- This work was supported by Institute of Information & communications Technology Planning & Evaluation(IITP) grant funded by the Korea government(MSIT) (RS-2019-II191270, WISE AR UI/UX Platform Development for Smartglasses)
+This work was supported by Institute of Information & communications Technology Planning & Evaluation(IITP) grant funded by the Korea government(MSIT) (RS-2019-II191270, WISE AR UI/UX Platform Development for Smartglasses)
 
-## Lisense
+## License
 WiseUI Applications are released under a MIT license. 
 For a closed-source version of WiseUI's modules for commercial purposes, please contact the authors : uvrlab@kaist.ac.kr, najoa1021@kaist.ac.kr
