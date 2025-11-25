@@ -11,4 +11,4 @@ This repository contains instructions on ...
 
 ## Lisense
 WiseUI Applications are released under a MIT license. 
-For a closed-source version of WiseUI's modules for commercial purposes, please contact the authors : uvrlab@kaist.ac.kr, TBD
+For a closed-source version of WiseUI's modules for commercial purposes, please contact the authors : uvrlab@kaist.ac.kr, najoa1021@kaist.ac.kr
