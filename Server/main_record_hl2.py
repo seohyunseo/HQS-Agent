@@ -262,7 +262,7 @@ class AudioThread:
         # Audio settings
         self.profile = hl2ss.AudioProfile.AAC_24000
         self.channels = hl2ss.Parameters_MICROPHONE.CHANNELS
-        self.sample_rate = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
+        self.sample_rate = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE/2
 
         # Override sample rate if needed
         # If audio plays too slow, the actual data rate is higher than what we're saving
