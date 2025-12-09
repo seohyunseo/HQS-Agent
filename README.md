@@ -1,6 +1,6 @@
 # HQS-Agent
 
-This repository contains instructions on ...
+This repository contains instructions on HQS-Agent system. It contains two core modules, Device and Servers.
 
 # TBD
 ...
