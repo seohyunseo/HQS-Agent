@@ -468,8 +468,8 @@ class AudioThread:
                 all_samples = all_samples.astype(np.int16)
 
             # Use 24kHz
-            # self.actual_sample_rate = 24000
-            self.actual_sample_rate = self.sample_rate
+            self.actual_sample_rate = 48000
+            
             print(f"[AudioThread] Using 24000Hz")
 
             num_frames = len(all_samples) // self.channels
