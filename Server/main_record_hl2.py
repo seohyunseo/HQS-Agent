@@ -262,7 +262,7 @@ class AudioThread:
         # Audio settings
         self.profile = hl2ss.AudioProfile.AAC_24000
         self.channels = hl2ss.Parameters_MICROPHONE.CHANNELS
-        self.sample_rate = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE/2
+        self.sample_rate = hl2ss.Parameters_MICROPHONE.SAMPLE_RATE
 
         # Override sample rate if needed
         # If audio plays too slow, the actual data rate is higher than what we're saving
@@ -468,7 +468,8 @@ class AudioThread:
                 all_samples = all_samples.astype(np.int16)
 
             # Use 24kHz
-            self.actual_sample_rate = 24000
+            # self.actual_sample_rate = 24000
+            self.actual_sample_rate = self.sample_rate
             print(f"[AudioThread] Using 24000Hz")
 
             num_frames = len(all_samples) // self.channels
